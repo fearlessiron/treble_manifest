@@ -3,7 +3,7 @@
 <remote name="phh" fetch="https://github.com/phhusson/" />
 <remote name="flo" fetch="https://github.com/fearlessiron" />
 
-<remove-project name="platform/build" />
+<remove-project name="build/make" />
 <project path="build/make" name="platform_build" remote="phh" revision="android-9.0.0_r31-phh">
     <copyfile dest="Makefile" src="core/root.mk" />
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
@@ -14,49 +14,49 @@
     <linkfile dest="build/tools" src="tools" />
 </project>
 
-<!--<remove-project name="platform/system/core" />
+<!--<remove-project name="system/core" />
 <project path="system/core" name="platform_system_core" remote="phh" revision="android-9.0.0_r31-phh" />-->
 
-<remove-project name="platform/system/sepolicy" />
+<remove-project name="system/sepolicy" />
 <project path="system/sepolicy" name="platform_system_sepolicy" remote="flo" revision="lineage-16.0-flo" />
 
-<remove-project name="platform/frameworks/native" />
+<remove-project name="frameworks/native" />
 <project path="frameworks/native" name="platform_frameworks_native" remote="flo" revision="lineage-16.0-flo" />
 
-<remove-project name="platform/system/vold" />
+<remove-project name="system/vold" />
 <project path="system/vold" name="platform_system_vold" remote="flo" revision="android-9.0.0_r31-flo" />
 
-<remove-project name="platform/system/bt" />
+<remove-project name="system/bt" />
 <project path="system/bt" name="platform_system_bt" remote="flo" revision="lineage-16.0-flo" />
 
-<remove-project name="platform/external/selinux" />
+<remove-project name="external/selinux" />
 <project path="external/selinux" name="platform_external_selinux" remote="flo" revision="lineage-16.0-flo" />
 
-<remove-project name="platform/frameworks/base" />
+<remove-project name="frameworks/base" />
 <project path="frameworks/base" name="platform_frameworks_base" remote="flo" revision="lineage-16.0-flo" />
 
-<remove-project name="platform/frameworks/av" />
+<remove-project name="frameworks/av" />
 <project path="frameworks/av" name="platform_frameworks_av" remote="flo" revision="lineage-16.0-flo" />
 
-<remove-project name="platform/frameworks/opt/telephony" />
+<remove-project name="frameworks/opt/telephony" />
 <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="flo" revision="lineage-16.0-flo" />
 
-<remove-project name="platform/system/libvintf" />
+<remove-project name="system/libvintf" />
 <project path="system/libvintf" name="platform_system_libvintf" remote="flo" revision="lineage-16.0-flo" />
 
-<remove-project name="platform/system/netd" />
+<remove-project name="system/netd" />
 <project path="system/netd" name="platform_system_netd" remote="flo" revision="lineage-16.0-flo" />
 
-<remove-project name="platform/frameworks/opt/net/wifi" />
+<remove-project name="frameworks/opt/net/wifi" />
 <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="flo" revision="lineage-16.0-flo" />
 
-<remove-project name="platform/packages/apps/Settings" />
+<remove-project name="packages/apps/Settings" />
 <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="flo" revision="lineage-16.0-flo" />
 
-<remove-project name="platform/packages/services/Telephony" />
+<remove-project name="packages/services/Telephony" />
 <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="flo" revision="lineage-16.0-flo" />
 
-<remove-project name="platform/bionic" />
+<remove-project name="bionic" />
 <project path="bionic" name="platform_bionic" remote="flo" revision="lineage-16.0-flo" />
 
 </manifest>
