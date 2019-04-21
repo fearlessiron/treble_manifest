@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="flo" fetch="https://github.com/fearlessiron/" />
+
+        <project path="vendor/flo" name="android_vendor_flo" remote="flo" revision="master" />
+</manifest>
